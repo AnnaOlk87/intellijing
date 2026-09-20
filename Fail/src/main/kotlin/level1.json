@@ -1,11 +1,11 @@
 {
-  "characters": [
+  "Personagels": [
     {
-      "name": "Goblin",
-      "health": 15,
+      "name": "elf",
+      "hp": 500,
       "weapon": {
-        "name": "Rusty sword",
-        "damage": 5
+        "name": "Ýëüô",
+        "damage": 50
       }
     },
     {
@@ -14,11 +14,11 @@
       "weapon": null
     },
     {
-      "name": "Orc",
-      "health": 30,
+      "name": "Ork",
+      "health": 600,
       "weapon": {
-        "name": "Big axe",
-        "damage": 7
+        "name": "Îðê",
+        "damage": 150
       }
     }
   ]

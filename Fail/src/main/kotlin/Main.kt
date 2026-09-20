@@ -1,3 +1,6 @@
+import kotlinx.serialization.json.Json
+import java.io.File
+
 fun main() {
     val player = Personagels(name = "Аня", hp = 1000, damage = 100)
     val elf = Personagels(name = "Эльф", 500, 50)
@@ -5,10 +8,13 @@ fun main() {
     val killer = Personagels("Мастер Киллер", 1500, 200)
     val bear = Personagels("Мишка", 200, 30)
 
+
+
+
     while (true) {
         println("${player.name} (${player.hp})")
         println("${elf.name} (${elf.hp})")
-        println("Вы встретили ${elf.name}. Ударить?")
+        println("Вы встретили ${elf.name}а. Ударить?")
         println("Ударить")
         println("Убежать, как подлый трус")
         val answer = readln()
